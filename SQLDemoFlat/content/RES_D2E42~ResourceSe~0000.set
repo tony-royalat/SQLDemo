@@ -1,0 +1,34 @@
+{ Type('AXCF2152') }
+RESOURCE PLC
+{ DeviceProfileWorksheet('DeviceProfile', Id := '35c332a9-44b0-4a3f-9fa9-a7cb4a903607') }
+{ DeviceProfile(
+    Name := 'RES_D2E423A3C95340D4AD848909D059FEAD',
+    Parent := ( Name := 'AXCF2152', Version := '2019.0.0'), 
+    UpdateType := 'Manual',
+    FilesIni := 
+    [
+    ],
+    CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
+    DeviceDescription := 
+    (
+        MaxProgramSize := '8388608',
+        MaxDataSize := '16777208',
+        MaxRetainDataSize := '0',
+        MaxTaskPriority := '96',
+        Endianness := 'LittleEndian'
+    ),
+    CommunicationType := 'TcpIp',
+    CommunicationParameters := 'DLL socomm.dll -ip192.168.42.10 -p41100 -to2000',
+    DownloadFiles := 
+    [
+    ]
+)}
+
+
+TASK Task_1 () { Watchdog(T#100ms), Id('111555cc-03e7-4d3d-9d27-ed110ee46690') };
+
+PROGRAM Main1 WITH Task_1 : Main { Id('60612913-918a-4622-8792-3a8aca8b5df3') };
+
+PROGRAM HMILogic WITH Task_1 : HMILogic { Id('30408988-c845-482a-bf26-54e185c74bea') };
+
+END_RESOURCE

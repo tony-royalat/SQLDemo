@@ -1,0 +1,16 @@
+{ CustomGroupDefinition('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22', '') }
+
+VAR_EXTERNAL
+    xTCP_Ready : BOOL { CustomGroupReference('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22') } {Id('2d9269c8-a133-4902-9bfa-167d37bfe4cf')};
+    HMIText_TCPReady : STRING { CustomGroupReference('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22') } {Id('00981aeb-009f-4dc9-9087-88581bfd52a4')};
+    HMIText_SQLReady : STRING { CustomGroupReference('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22') } {Id('516e6dec-ab91-4a24-9a17-7d34bc69e2a4')};
+    xSQL_Ready : BOOL { CustomGroupReference('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22') } {Id('e1e391bb-b29d-439c-9ddb-8b37055039e8')};
+    STRfSfas : STRING { CustomGroupReference('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22') } {Id('399d776f-e425-46a4-b6aa-c87a617fb8ab')};
+    HMIText_DataWrite : STRING { CustomGroupReference('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22') } {Id('c9c76565-b491-4a89-8916-df8e48804a1d')};
+    xSQLDone : BOOL { CustomGroupReference('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22') } {Id('dbd5a5c5-cbf6-462f-a6c2-6d10f53a053a')};
+    iDataInput : INT { CustomGroupReference('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22') } {Id('29075965-4794-4bef-913c-96aef0ba97e9')};
+    ByteInput : INT { CustomGroupReference('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22') } {Id('7f07a5b2-42f0-4537-805a-6353a2caa0cc')};
+    bByteCom : BYTE { CustomGroupReference('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22') } {Id('704a8af6-d65b-4bc4-be7e-7024b81ebb3f')};
+    RealInput : INT { CustomGroupReference('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22') } {Id('269893f5-bb2b-46d5-9f55-cb8baa6cce60')};
+    rRealCom : REAL { CustomGroupReference('f707ef41-f8f3-4ca6-828b-4e4e0d9fef22') } {Id('ffb10744-d063-4a47-a3b4-dba14ce7777c')};
+END_VAR

@@ -1,1 +1,1 @@
-<Inventory xmlns="Ade.Security.DataSealing/v2" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Signature>SWOUAokvClSyEEDe6wEVcZGiTs0=</Signature><HashingStrategy>SafetyInventory</HashingStrategy><Seals xmlns:a="Ade.Security.DataSealing/v1"/></Inventory>
+<Inventory xmlns="Ade.Security.DataSealing/v2" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Signature>rJKiDFoGHCGUcx8Su7yv0/ukheY=</Signature><HashingStrategy>SafetyInventory</HashingStrategy><Seals xmlns:a="Ade.Security.DataSealing/v1"/></Inventory>

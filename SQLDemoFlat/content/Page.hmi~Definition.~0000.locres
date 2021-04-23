@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>125</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="101" Name="Text_SQLServerConnected.Text">
+    <Values LanguageID="0" LocalValue="Text" />
+  </Resources>
+  <Resources ID="103" Name="SQLFBReadyText.Text">
+    <Values LanguageID="0" LocalValue="Text" />
+  </Resources>
+  <Resources ID="105" Name="ConnectButton.Text">
+    <Values LanguageID="0" LocalValue="Connect" />
+  </Resources>
+  <Resources ID="106" Name="ConnectButton.TextWhenDown">
+    <Values LanguageID="0" LocalValue="Disconnect" />
+  </Resources>
+  <Resources ID="116" Name="TextInput_INT.Text">
+    <Values LanguageID="0" LocalValue="5" />
+  </Resources>
+  <Resources ID="117" Name="TextInput_REAL.Text">
+    <Values LanguageID="0" LocalValue="15" />
+  </Resources>
+  <Resources ID="118" Name="TextInput_BYTE.Text">
+    <Values LanguageID="0" LocalValue="21" />
+  </Resources>
+  <Resources ID="119" Name="Button_WRITE.Text">
+    <Values LanguageID="0" LocalValue="Write Data" />
+  </Resources>
+  <Resources ID="120" Name="Button_WRITE.TextWhenDown">
+    <Values LanguageID="0" LocalValue="Writing" />
+  </Resources>
+  <Resources ID="121" Name="Button_BOOL.Text">
+    <Values LanguageID="0" LocalValue="False" />
+  </Resources>
+  <Resources ID="122" Name="Button_BOOL.TextWhenDown">
+    <Values LanguageID="0" LocalValue="True" />
+  </Resources>
+  <Resources ID="124" Name="Text1.Text">
+    <Values LanguageID="0" LocalValue="Text" />
+  </Resources>
+</ResourcesDocument>

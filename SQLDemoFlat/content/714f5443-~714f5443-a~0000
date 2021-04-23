@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2021-04-23 19:52:29Z" DisplayName="sql_analytics1">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="714f5443-a142-41ac-8c50-c23d736437ae" ParentId="4eeb20ed-a1bd-4687-a400-e418aba591d6" PredecessorId="f16b09c8-f627-4b67-9305-a145445800c6" Position="5" Kind="Type" />
+</RestoreDataItem>

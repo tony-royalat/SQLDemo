@@ -1,11 +1,97 @@
-﻿VAR
+{ CustomGroupDefinition('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70', '') }
 
-END_VAR
-
-VAR RETAIN
-
+VAR
+    DBFL_TSQL_ACCESS_1_1 : DBFL_TSQL_ACCESS_2 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('388f3177-d5d1-458f-a955-9f5d800fbafc')};
+    udtSQL_In : DBFL_ARR_BYTE_0_1439 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('28bfed2f-30ed-43a1-8e0a-f610812ac2a5')};
+    arrRcvBuffer : DBFL_ARR_BYTE_0_10219 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('d871c6a7-eedf-4948-b12b-faf9577628d8')};
 END_VAR
 
 VAR_EXTERNAL
+    xIP_Activate : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('158cdf02-7720-42ed-a726-2320d5bf1890')};
+END_VAR
 
+VAR
+    xDB_Activate : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('fee817f3-5d72-4b7e-9d1e-37065a5a26f9')};
+    strDB_User : STRING := STRING#'sa' { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('264fa17e-a772-4f54-90a8-321c8c1416d3')};
+    strDB_Password : STRING := STRING#'trooper2-' { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('2f1c08e4-9890-4ec9-81b9-ba96b720eb18')};
+    strIP_Address : STRING := STRING#'192.168.42.26' { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('52478dd9-5d68-4344-b4b8-7908173b2433')};
+    strIP_Port : STRING := STRING#'1433' { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('df34f042-140d-4455-ae38-45461d9e750a')};
+    strDB_Name : STRING := STRING#'DataTable' { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('8f02b78b-70fe-4903-b66d-53312786e2d0')};
+    udtComBuffer : DBFL_UDT_SQL_COMMAND { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('c450a082-010e-4d1a-a32d-eaff9136b191')};
+    DBFL_StartComT2_1_1 : DBFL_StartComT2_1 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('955bc9dc-d9d5-4286-aeb3-ed858ea77c47')};
+END_VAR
+
+VAR_EXTERNAL
+    xActivateCom : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('c643355f-9cdb-4c09-a3db-80062a80c07a')};
+END_VAR
+
+VAR
+    strStartCom : STRING := STRING#'Insert into example values (' { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('7da3fbed-afb0-44d9-a0df-3fecaf605e68')};
+    DBFL_DIntToComT2_1_1 : DBFL_DIntToComT2_1 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('1e379d9c-f1bf-4b36-b199-758afcd0a124')};
+END_VAR
+
+VAR_EXTERNAL
+    iIntCom : INT { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('26514415-b887-44d1-a582-61f60f65afce')};
+END_VAR
+
+VAR
+    DBFL_IntToComT2_1_1 : DBFL_IntToComT2_1 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('1f864f44-fce5-41bf-b66e-b2e9c4ddbf82')};
+    DBFL_RealToComT2_1_1 : DBFL_RealToComT2_1 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('09db3f70-4ba4-4af2-aa41-8a8704d09e00')};
+    DBFL_BoolToComT2_1_1 : DBFL_BoolToComT2_1 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('ca89d7b1-92a8-4e79-b2b4-4fcc96679a03')};
+    DBFL_ByteToComT2_1_1 : DBFL_ByteToComT2_1 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('22b6d172-e8d6-466a-ad7c-70a184815e38')};
+END_VAR
+
+VAR_EXTERNAL
+    bByteCom : BYTE { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('a957ceed-58de-448b-ab6f-20e2825c18c9')};
+    rRealCom : REAL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('1a8fb0fd-efed-4cae-afdc-a0977138690e')};
+    xBoolCom : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('abed8de7-ae9c-425d-8389-07e30b224458')};
+END_VAR
+
+VAR
+    DBFL_DateTimeStrT2_1_1 : DBFL_DateTimeStrT2_2 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('13034180-3adc-433b-a816-5a551373b4c4')};
+    xReadyCom : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('464a0ecc-c0d0-49a6-b6f2-f33520ed2bbf')};
+    DBFL_CODE_1_1 : DBFL_CODE_1 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('5c01ffba-0b3c-4355-8399-a631622fac72')};
+    xReadyCode : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('d6a92cde-c8eb-4f8d-8922-686f968671ea')};
+    DBFL_CODE_1_2 : DBFL_CODE_1 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('7a75ca21-d548-43de-9bf2-000497c72bfe')};
+    xActivateCode2 : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('f5655bf5-73d7-41a8-8931-84c538374be4')};
+    xReadyCode2 : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('656840f3-d539-4657-a4c8-6fc104747bff')};
+    xActivateCode : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('090c9742-bb5d-4257-8d23-deaea85d3d4d')};
+    DBFL_TSQL_DECODE_1_1 : DBFL_TSQL_DECODE_2 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('05778167-bc4d-45c7-a0b8-c1d87c05714c')};
+END_VAR
+
+VAR_EXTERNAL
+    xSQLDone : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('8e128bba-d3a2-42d2-94f1-e6e523f05943')};
+END_VAR
+
+VAR
+    diRowCNT : DINT { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('2ad55834-0112-4bae-9d37-ee8de6ff4979')};
+    diColCNT : DINT { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('bcbc6216-0642-48ec-999e-3748700308c7')};
+    iRowSelect : INT := INT#1 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('a496e926-51dd-400e-ad65-c825ef859f25')};
+    iColSelect : INT := INT#5 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('f1b2c074-6647-4f54-85fb-78d564c8f01a')};
+END_VAR
+
+VAR_EXTERNAL
+    xTCP_Ready : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('efbbafce-1a11-4968-9d23-406ccffb3d3d')};
+    xSQL_Ready : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('b7bbf9c0-e8e5-492d-a6f3-1dbd205033bc')};
+END_VAR
+
+VAR
+    iYear : INT := INT#2018 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('dc3f26ed-a42b-45e1-865c-d8725b69d3d8')};
+    iMonth : INT := INT#7 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('b6a0e9cb-a5f0-4990-93f6-d3bbbaed3dbc')};
+    iDay : INT := INT#25 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('c3548ecc-f9fc-49c9-a4e5-d4f0baefae69')};
+    iHour : INT := INT#10 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('367db888-9369-49bc-9ea2-accd0d7fe1ca')};
+    iMinute : INT := INT#50 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('c538e38d-560b-4eff-bae9-8c8e7ac4416a')};
+    iSecond : INT := INT#25 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('4ad13e54-c5ff-4ade-9681-19e34c99fd83')};
+    udtComBufferIn : DBFL_UDT_SQL_COMMAND { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('03504746-d1d2-4dbe-a061-77dcfc71daac')};
+    DBFL_CommandFiFo_1_1 : DBFL_CommandFiFo_1 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('0939cec9-f73b-4df0-b8bb-57290efb5f09')};
+    DBFL_CODE_1_3 : DBFL_CODE_1 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('82137a41-4b5a-488f-9007-2a351b6955dc')};
+    xSend : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('51500909-e741-4cf0-ade6-c257e038263c')};
+    xActivateCodeFifo : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('60768854-4a2f-498f-886d-857029083f64')};
+    xNewData : BOOL { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('f8e81b16-ad19-453e-8ee9-b0d2d1913fcb')};
+    DBFL_DateTimeStrT2_1_2 : DBFL_DateTimeStrT2_2 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('a1507ace-9bb7-4832-87ef-da3cdac1bdfb')};
+    DBFL_TSQL_ACCESS_1_2 : DBFL_TSQL_ACCESS_2 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('61b822a7-db59-4a9f-8cda-ec2defa7750d')};
+    DBFL_TSQL_DECODE_1_2 : DBFL_TSQL_DECODE_2 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('fbd2b94e-79e0-43d5-9275-0f0457ba0b8d')};
+    strHost_Name : STRING := STRING#'Daedalus\PLCNEXTTESTING' { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('dcf44ac7-e2ec-46cd-acda-ba19b7fd2777')};
+    RTC_S1 : RTC_S { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('c95a0fa7-d729-44c7-a51a-61ec8368a3a5')};
+    PBCL_DateTimeGet_11 : PBCL_DateTimeGet_1 { CustomGroupReference('121fdc7b-c2fe-461f-bcc3-f6c70b69ab70') } {Id('495f9ccf-a6da-45ad-8f77-1096727e6320')};
 END_VAR
