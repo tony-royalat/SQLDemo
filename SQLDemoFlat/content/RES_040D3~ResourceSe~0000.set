@@ -1,0 +1,24 @@
+{ Type('AXCF2152') }
+RESOURCE PLC
+{ DeviceProfileWorksheet('DeviceProfile', Id := 'f16a783a-ff4f-4556-b56c-49f9141f3933') }
+{ DeviceProfile(
+    Name := 'RES_040D3FBBE40E4AB59301D95C16BE1D82',
+    Parent := ( Name := 'AXCF2152', Version := '2021.0.0'), 
+    UpdateType := 'Manual',
+    FilesIni := 
+    [
+    ],
+    CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
+    CommunicationType := 'TcpIp',
+    CommunicationParameters := 'DLL socomm.dll -ip192.168.1.10 -p41100 -to2000',
+    DownloadFiles := 
+    [
+    ]
+)}
+
+
+TASK Cyclic50 (INTERVAL := T#50ms, PRIORITY := 0) { Watchdog(T#100ms), Id('47c1166d-6ce1-4d36-9696-75b34a20c219') };
+
+PROGRAM MainInstance WITH Cyclic50 : Main { Id('088b75f4-4135-477f-83eb-07c41ff90b2e') };
+
+END_RESOURCE
