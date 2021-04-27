@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HmiVariables>
+  <UserDefined>
+    <Variable Name="InputInt" DataType="INT" InitValue="5" IsReadOnly="false" Id="4d0c2386-0afd-417d-8833-391e526dcd58" />
+  </UserDefined>
+</HmiVariables>

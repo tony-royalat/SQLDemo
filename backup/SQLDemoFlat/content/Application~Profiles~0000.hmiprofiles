@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HmiProfiles Id="0be09f30-0b89-43af-9a69-e1540c4c6a6e" Name="Client">
+   <DefaultProfile Id="a23f2370-d608-44b1-9ebc-ecba9975c572" Name="Default">
+      <Attributes>
+         <HmiAttribute Id="03b70ed5-26e7-4061-9c3d-7166fddc6add" Name="StationID" Value="0" />
+      </Attributes>
+   </DefaultProfile>
+   <AlternativeProfiles>
+      <HmiProfile Id="cca51261-967d-4d69-9afb-baea28810f6a" Name="Alternative">
+         <Attributes>
+            <HmiAttribute Id="03b70ed5-26e7-4061-9c3d-7166fddc6add" Name="StationID" Value="" />
+         </Attributes>
+      </HmiProfile>
+   </AlternativeProfiles>
+</HmiProfiles>

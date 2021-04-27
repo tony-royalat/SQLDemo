@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HmiVariables>
+  <System>
+    <Variable Name="StationID" DataType="STRING" Id="507df7f3-a5b5-4d03-9bf2-450561708687" />
+    <Variable Name="ClientNow" DataType="LDATE_AND_TIME" Id="860ba40e-b6d7-4878-a280-40cf047adad9" />
+  </System>
+</HmiVariables>

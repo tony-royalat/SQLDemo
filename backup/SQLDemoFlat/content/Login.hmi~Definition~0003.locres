@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>109</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="100" Name="useridLabel.Text">
+    <Values LanguageID="0" LocalValue="User" />
+  </Resources>
+  <Resources ID="101" Name="passwordLabel.Text">
+    <Values LanguageID="0" LocalValue="Password" />
+  </Resources>
+  <Resources ID="102" Name="username.Text">
+    <Values LanguageID="0" LocalValue="" />
+  </Resources>
+  <Resources ID="103" Name="login.Text">
+    <Values LanguageID="0" LocalValue="Log In" />
+  </Resources>
+  <Resources ID="104" Name="cancel.Text">
+    <Values LanguageID="0" LocalValue="Cancel" />
+  </Resources>
+  <Resources ID="105" Name="password.Text">
+    <Values LanguageID="0" LocalValue="" />
+  </Resources>
+  <Resources ID="106" Name="Text1.Text">
+    <Values LanguageID="0" LocalValue="Text" />
+  </Resources>
+  <Resources ID="107" Name="SystemUseNotificationDE.Text">
+    <Values LanguageID="0" LocalValue="Hinweis:\n \nDieses Gerät darf nur von autorisierten \nBenutzern für autorisierte Zwecke \nverwendet werden. \n\nIhre Anmeldeinformationen und alle \nBenutzeraktionen auf diesem Gerät können \nüberwacht, aufgezeichnet, kopiert und \nauditiert werden. \n\nDurch die weitere Verwendung dieses \nGeräts erklären Sie sich mit diesen \nBedingungen einverstanden." />
+  </Resources>
+  <Resources ID="108" Name="SystemUseNotificationEN.Text">
+    <Values LanguageID="0" LocalValue="Notice:\n\nThis device may only be used by authorized \nusers for authorized purposes. \n\nYour credentials and all user actions on this \ndevice can be monitored, recorded, copied \nand audited. \n\nBy continuing to use this device, you agree \nto these terms." />
+  </Resources>
+</ResourcesDocument>

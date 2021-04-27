@@ -110,5 +110,14 @@
         <file name="Description.rtf" id="HMILogic.~Descriptio~0001.rtf" />
       </folder>
     </folder>
+    <folder name="RecycleBin">
+      <folder name="714f5443-a142-41ac-8c50-c23d736437ae">
+        <file name="714f5443-a142-41ac-8c50-c23d736437ae" id="714f5443-~714f5443-a~0000" />
+        <folder name="sql_analytics1.jpg">
+          <file name="Source" id="sql_analytics~Source~0001" />
+          <file name="Thumbnail" id="sql_analyt~Thumbnail~0001" />
+        </folder>
+      </folder>
+    </folder>
   </folder>
 </content>

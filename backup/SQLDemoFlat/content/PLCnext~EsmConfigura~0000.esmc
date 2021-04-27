@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EsmConfiguration id="812c6b69-2603-4743-ac85-b875f48c2fd3" version="1" importRevision="1">
+	<Esms>
+		<Esm id="ddf05804-3359-4b9e-8eee-7a0109394704" name="ESM1" cpuAffinity="1" timerInterval="500000" taskSchedulerMode="" comment="" readonly="False" />
+		<Esm id="15271c57-1b96-46ba-ac5e-7d18a3908826" name="ESM2" cpuAffinity="2" timerInterval="500000" taskSchedulerMode="" comment="" readonly="False" />
+	</Esms>
+	<Tasks>
+		<Task id="111555cc-03e7-4d3d-9d27-ed110ee46690" name="Task_1" taskType="IdleTask" watchdogTime="100000000" executionTimeThreshold="0" coreAffinity="0" stackSize="0" taskBuffer="None" comment="" esmId="ddf05804-3359-4b9e-8eee-7a0109394704" readonly="False">
+			<ProgramInstances>
+				<ProgramInstance id="60612913-918a-4622-8792-3a8aca8b5df3" name="Main1" programType="Main" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
+				<ProgramInstance id="30408988-c845-482a-bf26-54e185c74bea" name="HMILogic" programType="HMILogic" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
+			</ProgramInstances>
+		</Task>
+	</Tasks>
+</EsmConfiguration>

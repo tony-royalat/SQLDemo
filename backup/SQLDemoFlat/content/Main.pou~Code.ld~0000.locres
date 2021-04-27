@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>107</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="100" Name="257.DBFL_TSQL_ACCESS_1_2">
+    <Values LanguageID="0" LocalValue="Connect to database" />
+  </Resources>
+  <Resources ID="101" Name="258.DBFL_StartComT2_1_1">
+    <Values LanguageID="0" LocalValue="Insert data into the table Example" />
+  </Resources>
+  <Resources ID="102" Name="259.DBFL_CODE_1_2">
+    <Values LanguageID="0" LocalValue="Read data from the table Example" />
+  </Resources>
+  <Resources ID="103" Name="260.DBFL_CODE_1_1">
+    <Values LanguageID="0" LocalValue="Create the table Example" />
+  </Resources>
+  <Resources ID="104" Name="261.DBFL_TSQL_DECODE_1_2">
+    <Values LanguageID="0" LocalValue="Decode the data from the database" />
+  </Resources>
+  <Resources ID="105" Name="262.DBFL_CommandFiFo_1_1">
+    <Values LanguageID="0" LocalValue="Send commands to the database (FiFo)" />
+  </Resources>
+  <Resources ID="106" Name="263.DBFL_CODE_1_3">
+    <Values LanguageID="0" LocalValue="Insert data into the table Example2" />
+  </Resources>
+</ResourcesDocument>

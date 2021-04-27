@@ -110,10 +110,23 @@
          <FolderType>References</FolderType>
          <ParentIndex>0</ParentIndex>
       </Folder>
+      <Folder Include="RecycleBin">
+         <Id>1e6c9db7-b7b5-42c2-80e6-095a6bc4984d</Id>
+         <FolderType>RecycleBin</FolderType>
+         <LastestItemNo>1</LastestItemNo>
+         <Visible>false</Visible>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\714f5443-a142-41ac-8c50-c23d736437ae">
+         <Id>17f7a5d2-259a-4d1e-b3c6-aecd38e292f2</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>1</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
       <Folder Include="Hardware">
          <Id>81aff55e-d0e7-4d2e-bf7c-2fa14ced3a75</Id>
          <FolderType>Root</FolderType>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </Folder>
       <Folder Include="Hardware\CFG_13E86C9EF2F047EF8CCCE6D7644CFEAE">
          <Id>13e86c9e-f2f0-47ef-8ccc-e6d7644cfeae</Id>
@@ -213,7 +226,7 @@
       <Folder Include="Logical Elements">
          <Id>4eeb20ed-a1bd-4687-a400-e418aba591d6</Id>
          <FolderType>Root</FolderType>
-         <ParentIndex>2</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\Main.pou">
          <Id>02536879-2115-4ff0-b265-b8b81721e990</Id>
@@ -330,6 +343,15 @@
       </HmiVariables>
    </ItemGroup>
    <ItemGroup>
+      <Image Include="RecycleBin\714f5443-a142-41ac-8c50-c23d736437ae\sql_analytics1.jpg">
+         <Id>714f5443-a142-41ac-8c50-c23d736437ae</Id>
+         <DisplayName>sql_analytics1</DisplayName>
+         <ImageWidth>1280</ImageWidth>
+         <ImageHeight>800</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <ParentIndex>0</ParentIndex>
+      </Image>
       <Image Include="Logical Elements\sql_analytics.jpg">
          <Id>f16b09c8-f627-4b67-9305-a145445800c6</Id>
          <DisplayName>sql_analytics</DisplayName>
@@ -368,6 +390,10 @@
       </Image>
    </ItemGroup>
    <ItemGroup>
+      <ImageSource Include="RecycleBin\714f5443-a142-41ac-8c50-c23d736437ae\sql_analytics1.jpg\Source">
+         <Id>1ed085f4-35a7-4a86-9ffb-b3f942878e4c</Id>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
       <ImageSource Include="Logical Elements\sql_analytics.jpg\Source">
          <Id>cccb1c90-b257-4c03-8eb9-3c8f5cba036c</Id>
          <ParentIndex>0</ParentIndex>
@@ -386,6 +412,10 @@
       </ImageSource>
    </ItemGroup>
    <ItemGroup>
+      <ImageThumbnail Include="RecycleBin\714f5443-a142-41ac-8c50-c23d736437ae\sql_analytics1.jpg\Thumbnail">
+         <Id>b4d1ce96-b821-4807-8c22-10ac5af1f0c0</Id>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
       <ImageThumbnail Include="Logical Elements\sql_analytics.jpg\Thumbnail">
          <Id>ab41ebdf-8a7c-4bbb-80b3-2a74f612cba6</Id>
          <ParentIndex>1</ParentIndex>
@@ -655,6 +685,12 @@
       </ResourceSettings>
    </ItemGroup>
    <ItemGroup>
+      <RestoreDocument Include="RecycleBin\714f5443-a142-41ac-8c50-c23d736437ae\714f5443-a142-41ac-8c50-c23d736437ae">
+         <Id>7da2ce4e-4b00-41d8-a83d-2f84f8a5a889</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+   </ItemGroup>
+   <ItemGroup>
       <SolutionReference Include="DBFL_SQL_5">
          <Id>32fe7e1b-9d9f-435c-96b0-9dab70ecf467</Id>
          <HintPath>$(LibrariesPath)\DBFL_SQL_5\DBFL_SQL_5.pcwlx</HintPath>
@@ -751,7 +787,7 @@
    <PropertyGroup>
       <ProjectId>5370a173-31a3-4247-9887-8407f3470dce</ProjectId>
       <AdePlcProductVersion>2.3.0.0</AdePlcProductVersion>
-      <AdeProductVersion>1.4.19.0</AdeProductVersion>
+      <AdeProductVersion>1.4.18.0</AdeProductVersion>
       <HmiSchemaRevision>7</HmiSchemaRevision>
    </PropertyGroup>
 </Project>
